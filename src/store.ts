@@ -7,7 +7,7 @@ interface GameQuery {
     sortOrder?: string;
     searchText?: string;
   }
-
+  
 interface GameQueryStore {
     gameQuery:GameQuery;
     setSearchText:(searchText:string) => void;
